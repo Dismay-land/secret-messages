@@ -20,7 +20,7 @@ def makemore():
         newwindow = tks.setup()
         newwindow.title("You are an idiot")
         newwindow.write("You are an idiot", 0, 0)
-        newwindow.write("  🙂🙂🙂", 0, 1)
+        newwindow.write("  ☺ ☺ ☺", 0, 1)
         newwindow.write("you are an idiot", 0, 2)
         newwindow.button("click to close", 0, 3, makemore)
         subprocess.Popen(["afplay", sound_path])  # play sound on new windows too
