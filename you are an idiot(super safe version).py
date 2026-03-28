@@ -3,7 +3,6 @@ import subprocess
 import os
 
 # Build an absolute path to idiot.mp3 (always works if it's in the same folder)
-import os
 import sys
 
 # When bundled by PyInstaller, resources are in sys._MEIPASS.
@@ -16,7 +15,7 @@ sound_path = os.path.join(base, "idiot.mp3")
 
 r = 6
 def makemore():
-    for r in range(6):
+    for r in range(99):
         newwindow = tks.setup()
         newwindow.title("You are an idiot")
         newwindow.write("You are an idiot", 0, 0)
